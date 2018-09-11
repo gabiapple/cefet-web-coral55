@@ -10,3 +10,23 @@
     margin-right: auto;
     width: 800px;
 }
+
+header{
+  text-align: right;
+}
+
+header h1{
+    font-family: "Ravie";
+    font-size: 36px;
+    color: #e90c0c;
+}
+
+header h2{
+    font-family: "Trebuchet MS", Heveltica, sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+header strong{
+  color: #d027aa;
+}
