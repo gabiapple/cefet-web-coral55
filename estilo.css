@@ -1,6 +1,10 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
 
+body{
+  margin: 0;
+}
+
 #recipiente{
     background-image: linear-gradient(#f6f1b2, #4599b2);
     border-style: solid;
@@ -28,5 +32,24 @@ header h2{
 }
 
 header strong{
-  color: #d027aa;
+    color: #d027aa;
+}
+
+#lateral {
+  width: 154px;
+}
+
+#lateral h2{
+    transform: rotate(-90deg);
+    font-family: "Verdana";
+    font-size: 48px;
+    color: #333;
+    font-weight: bold;
+}
+
+#siri{
+    /*display: block;*/
+    position: relative;
+    top: 7px;
+    left: -10px;
 }
