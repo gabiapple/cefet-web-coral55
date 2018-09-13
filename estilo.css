@@ -2,7 +2,7 @@
 @import "fonts/ravie.css";
 
 body{
-  margin: 0;
+    margin: 0;
 }
 
 #recipiente{
@@ -13,10 +13,12 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 800px;
+    height: 100vh;
+    position: relative;
 }
 
 header{
-  text-align: right;
+    text-align: right;
 }
 
 header h1{
@@ -36,7 +38,10 @@ header strong{
 }
 
 #lateral {
-  width: 154px;
+    position: absolute;
+    width: 154px;
+    top: 0;
+    height: 100%;
 }
 
 #lateral h2{
@@ -48,8 +53,8 @@ header strong{
 }
 
 #siri{
-    /*display: block;*/
     position: relative;
-    top: 7px;
     left: -10px;
+    top: 7px;
 }
+
